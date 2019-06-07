@@ -1,1 +1,28 @@
-// Mixins in here
+// Mixins
+.width() {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.button() {
+    border: 1px solid @btn-color;
+    width: 85%;
+    height: 18%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: @white;
+    background-color: @btn-color;
+    margin-top: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    @media(max-width: 500px) {
+      width: 100%;
+      border-radius: 15px;
+      padding-top: 3%;
+      padding-bottom: 3%  
+    }
+}

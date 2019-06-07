@@ -8,6 +8,10 @@ html {
 
 html, body {
   font-family: 'Roboto', sans-serif;
+
+  @media (max-width: 500px) {
+    margin: 10px;
+  }
 }
 
 h1, h2, h3, h4, h5 {
@@ -31,7 +35,6 @@ h4 {
 p {
   line-height: 1.5;
   font-size: 1.6rem;
-  padding-bottom: 10px;
 }
 
 img {
@@ -40,7 +43,5 @@ img {
 }
 
 .container {
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
+  .width();
 }

@@ -35,7 +35,7 @@ Follow these steps for completing your project.
 5. `navigation.less`
 6. `footer.less`
 7. `home-page.less`
-
+    Got it!
 
 ## Task 4: Desktop Updates Needed
 * [ ] Review the [desktop design file](design-files/fun-bus-desktop.png).  Notice the navigation, header, and buttons at the bottom of the page are missing.
